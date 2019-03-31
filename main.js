@@ -1,0 +1,1 @@
+import { myFn }from  "./func"
