@@ -1,3 +1,5 @@
+import {Car} from './oops'
+
 let os: string = 'android'
 let num: number = 10
 let isMobile: boolean = true
@@ -11,3 +13,4 @@ let ob = {
 }
 let obj : {}=ob
 let mixed:(()=> void) | number | boolean | string 
+
