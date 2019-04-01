@@ -4,16 +4,16 @@
      
         <input [(ngModel)]="name" type="text">
         <div [ngSwitch]="name">
-       <h1>the days of the week</h1>
-            <div *ngSwitchCase="'1'">monday</div>
-            <div *ngSwitchCase="'2'">tuesday</div>
-            <div *ngSwitchCase="'3'">wednesday</div>
-            <div *ngSwitchCase="'4'">thrusday</div>
-            <div *ngSwitchCase="'5'">friday</div>
-            <div *ngSwitchCase="'6'">saturday</div>
-          
-          
-          </div>
+            <h4> Your Selection :-</h4>
+            <div *ngSwitchCase="'1'"><h1>Monday</h1></div>
+            <div *ngSwitchCase="'2'"><h1>Tuesday</h1></div>
+            <div *ngSwitchCase="'3'"><h1>Wednesday</h1></div>
+            <div *ngSwitchCase="'4'"><h1>Thrusday</h1></div>
+            <div *ngSwitchCase="'5'"><h1>Friday</h1></div>
+            <div *ngSwitchCase="'6'"><h1>Saturday</h1></div>
+            <div *ngSwitchCase="'7'"><h1>Sunday</h1></div>
+          <div *ngSwitchDefault class="jumbotron"><h1>Please select Between 1 to 7</h1></div>
+           </div>
     </div>
   </div>
 </div>
