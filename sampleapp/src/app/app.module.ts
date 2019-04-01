@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { DropyComponent } from './dropy/dropy.component';
 import { DrpDirective } from './dropy/drp.directive';
+import { SwitchDirective } from './switch.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     DropyComponent,
-    DrpDirective
+    DrpDirective,
+    SwitchDirective
   ],
   imports: [
     BrowserModule
