@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+     
+        <input [(ngModel)]="name" type="text">
+        <div [ngSwitch]="name">
+       <h1>the days of the week</h1>
+            <div *ngSwitchCase="'1'">monday</div>
+            <div *ngSwitchCase="'2'">tuesday</div>
+            <div *ngSwitchCase="'3'">wednesday</div>
+            <div *ngSwitchCase="'4'">thrusday</div>
+            <div *ngSwitchCase="'5'">friday</div>
+            <div *ngSwitchCase="'6'">saturday</div>
+          
+          
+          </div>
+    </div>
+  </div>
+</div>
