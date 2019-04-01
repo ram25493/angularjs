@@ -3,8 +3,8 @@
     <div class="col-md-12">
      
         <input [(ngModel)]="name" type="text">
-        <div [ngSwitch]="name">
-            <h4> Your Selection :-</h4>
+          <div [ngSwitch]="name">
+            <h4 class="myc">Your Selection :-</h4>
             <div *ngSwitchCase="'1'"><h1>Monday</h1></div>
             <div *ngSwitchCase="'2'"><h1>Tuesday</h1></div>
             <div *ngSwitchCase="'3'"><h1>Wednesday</h1></div>
