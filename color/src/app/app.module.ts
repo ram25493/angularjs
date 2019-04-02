@@ -15,6 +15,8 @@ import { BorderDirective } from './border.directive';
 import { ShadowDirective } from './shadow.directive';
 import { SwitchComponent } from './switch/switch.component';
 import { DaysComponent } from './days/days.component';
+import { ServicesComponent } from './services/services.component';
+import { DemoServiceService } from './services/demo-service.service';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,8 @@ import { DaysComponent } from './days/days.component';
     BorderDirective,
     ShadowDirective,
     SwitchComponent,
-    DaysComponent
+    DaysComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
