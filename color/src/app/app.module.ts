@@ -17,6 +17,9 @@ import { SwitchComponent } from './switch/switch.component';
 import { DaysComponent } from './days/days.component';
 import { ServicesComponent } from './services/services.component';
 import { DemoServiceService } from './services/demo-service.service';
+import { InterComV2Component } from './inter-com-v2/inter-com-v2.component';
+import { BtnPanelComponent } from './inter-com-v2/btn-panel.component';
+import { ProgPanelComponent } from './inter-com-v2/prog-panel.component';
 
 @NgModule({
   declarations: [
@@ -32,14 +35,17 @@ import { DemoServiceService } from './services/demo-service.service';
     ShadowDirective,
     SwitchComponent,
     DaysComponent,
-    ServicesComponent
+    ServicesComponent,
+    InterComV2Component,
+    BtnPanelComponent,
+    ProgPanelComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     NgbModule.forRoot()
   ],
-  providers: [],
+  providers: [DemoServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

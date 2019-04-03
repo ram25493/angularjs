@@ -6,7 +6,7 @@ import { DemoServiceService } from './demo-service.service';
   selector: 'app-services',
   templateUrl: './services.component.html',
   styleUrls: ['./services.component.css'],
-  providers:[DemoServiceService]
+  // providers:[DemoServiceService]
 })
 export class ServicesComponent implements OnInit {
 counter: number=0
