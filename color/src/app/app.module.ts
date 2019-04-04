@@ -20,6 +20,9 @@ import { DemoServiceService } from './services/demo-service.service';
 import { InterComV2Component } from './inter-com-v2/inter-com-v2.component';
 import { BtnPanelComponent } from './inter-com-v2/btn-panel.component';
 import { ProgPanelComponent } from './inter-com-v2/prog-panel.component';
+import { ColorshowComponent } from './colorshow/colorshow.component';
+import { PickComponent } from './colorshow/pick.component';
+import { ShwColorComponent } from './colorshow/shw-color.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +41,10 @@ import { ProgPanelComponent } from './inter-com-v2/prog-panel.component';
     ServicesComponent,
     InterComV2Component,
     BtnPanelComponent,
-    ProgPanelComponent
+    ProgPanelComponent,
+    ColorshowComponent,
+    PickComponent,
+    ShwColorComponent
   ],
   imports: [
     BrowserModule,
