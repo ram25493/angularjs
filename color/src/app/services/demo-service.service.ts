@@ -16,13 +16,13 @@ export class DemoServiceService {
 
 
   incEm() {
-    if (this.cnt < 100) {
-      this.em.emit(this.cnt = this.cnt + 5)
+    if (this.cnt <= 100) {
+      this.em.emit(this.cnt++)
     }
   }
   decEm() {
-    if (this.cnt > 0) {
-      this.em.emit(this.cnt = this.cnt - 5)
+    if (this.cnt >= 0) {
+      this.em.emit(this.cnt--)
     }
   }
 
