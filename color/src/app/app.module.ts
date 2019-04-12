@@ -23,6 +23,8 @@ import { ProgPanelComponent } from './inter-com-v2/prog-panel.component';
 import { ColorshowComponent } from './colorshow/colorshow.component';
 import { PickComponent } from './colorshow/pick.component';
 import { ShwColorComponent } from './colorshow/shw-color.component';
+import { LoginComponent } from './login/login.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,9 @@ import { ShwColorComponent } from './colorshow/shw-color.component';
     ProgPanelComponent,
     ColorshowComponent,
     PickComponent,
-    ShwColorComponent
+    ShwColorComponent,
+    LoginComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
